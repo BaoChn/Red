@@ -123,39 +123,39 @@ const index: React.FC<indexProps> = ({}) => {
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
           <link rel="icon" href="svg/favicon.svg" />
-          <link href="https://adeolaadeoti.xyz/" rel="canonical" />
-          <meta name="theme-color" content="#10101A" />
+          <link href="https://bao.red/" rel="canonical" />
+          <meta name="theme-color" content="#0098EF" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
-          <title>Adeola Adeoti 🚀 &mdash; Frontend Devloper</title>
+          <title>BaoChn Studio &mdash; Create Possibility</title>
           <meta
             name="description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="Chasing dreams without stopping, Creative ideas can be expected!"
           />
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="BaoChn Studio &mdash; Create Possibility"
           />
-          <meta property="og:url" content="https://adeolaadeoti.xyz/" />
+          <meta property="og:url" content="https://bao.red/" />
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="Chasing dreams without stopping, Creative ideas can be expected!"
           />
           <meta
             name="twitter:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="BaoChn Studio &mdash; Create Possibility"
           />
           <meta
             name="twitter:description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="Chasing dreams without stopping, Creative ideas can be expected!"
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://adeolaadeoti.xyz/" />
+          <meta name="twitter:url" content="https://bao.red/" />
         </Head>
         <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/preloader.mp3" type="audio/mp3" />
@@ -173,20 +173,18 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/adeola-logo-left.svg" alt="adeola logo" />
+              <img src="svg/iCool.svg" alt="BOCO-icon" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
+              <p className="preloader__text">After_Effect</p>
+              <p className="preloader__text">Illustrator</p>
+              <p className="preloader__text">Photoshop</p>
+              <p className="preloader__text">Office</p>
               <p className="preloader__text">HTML</p>
-              <p className="preloader__text">CSS/SCSS</p>
-              <p className="preloader__text">JAVASCRIPT</p>
-              <p className="preloader__text">TYPESCRIPT</p>
-              <p className="preloader__text">REACT JS</p>
-              <p className="preloader__text">NEXT JS</p>
-              <p className="preloader__text">FRAMER MOTION</p>
             </motion.div>
           </div>
         </motion.div>
@@ -199,20 +197,20 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>turning ideas into </span> <br />
-                <span>real life </span>
+                <span>Keep Chasing dreams,</span> <br />
+                <span>Creative ideas</span>
                 <span className="header__hero--heading-gradient">
                   products{" "}
                 </span>
                 <br />
-                <span>is my calling.</span>
+                <span>Come true!</span>
               </div>
               <a
                 data-scroll-to
                 className="header__hero--cta"
                 href="#sectionProjects"
               >
-                VIEW PROJECTS
+                EXPLORE MORE
               </a>
             </div>
           </header>
@@ -277,40 +275,40 @@ const index: React.FC<indexProps> = ({}) => {
               </div>
             </div>
             <div className="header__footer--right">
-              <a href="https://github.com/adeolaadeoti" rel="noopener" target="_blank">
+              <a target="_blank" href="https://a-b.cc/QQ" rel="noopener">
+                🐧 QQ
+              </a>
+              <a target="_blank" href="https://t.me/BaoChn" rel="noopener">
+                🛩️ TG
+              </a>
+              <a target="_blank" href="https://a-b.cc/WC" rel="noopener">
+                👁️‍🗨️ WC
+              </a>
+              <a target="_blank" href="https://github.com/BaoChn" rel="noopener">
+                {" "}
                 👾 GH
               </a>
-              <a href="https://twitter.com/adeolajs" rel="noopener" target="_blank">
-                🐦 TW
-              </a>
-              <a href="https://www.linkedin.com/in/adeoladev" rel="noopener" target="_blank">
-                💼 LD
-              </a>
-              <a href="https://www.instagram.com/adeolaadeoti_" rel="noopener" target="_blank">
-                {" "}
-                📸 IN
-              </a>
-            </div>
+              </div>
           </div>
         </div>
         <main className="container">
           <p className="about-text">
-            Hello stranger! 👋, my name is adeola and I am a frontend engineer,
-            passionate <br /> about digital products that help people experience
-            everyday life, not endure it.
+            A adulthood man which nearly graduate🎓, I'm willing<br />
+            to provide any assist if it's needed for you guys~
           </p>
           <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
-              <span>Yeah, I work hard </span> <small>💼</small>
+              <span>猜猜我是谁</span> <small>❔</small>
             </h1>
             <p className="paragraph">
-              Each project is unique. Here are some of my works.
+              🧑‍🎓一只大四预备毕业生<pre>🛠️数字达人，扎实技能<br />
+              🚀兴趣不详，爱好多样<pre>🛸乐于探索，脑洞辽阔
             </p>
 
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
+                  AFTER EFFECT, BLENDER, TBH
                 </h4>
               </div>
               <div
@@ -328,16 +326,16 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="alexxandria-anim"
                   className="heading-2"
                 >
-                  Alexxandria
-                  <br /> Forque
+                  Video Maker
+                  <br /> 影视创作
                 </h2>
                 <a
                 rel="noopener"
                   target="_blank"
-                  href="https://alexxandria.vercel.app/"
+                  href="https://a-b.cc/🎬/"
                   className="project-card__link"
                 >
-                  VISIT THE WEBSITE
+                  HAVE A LOOK
                 </a>
                 <div className="project-card__socials">
                   <a href="#">
@@ -346,7 +344,7 @@ const index: React.FC<indexProps> = ({}) => {
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/alexxandria"
+                    href="#"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -356,7 +354,7 @@ const index: React.FC<indexProps> = ({}) => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">REACT JS, FRAMER MOTION</h4>
+                <h4 className="heading-4">HTML5, FIGMA, XD</h4>
               </div>
               <div
                 className="project-card__middle"
@@ -373,15 +371,16 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="pixelchef-anim"
                   className="heading-2"
                 >
-                  PixelChef
+                  UI/UX Design
+                  <br /> 交互设计
                 </h2>
                 <a
                 rel="noopener"
                   target="_blank"
-                  href="https://pixelchef.netlify.app/"
+                  href="https://fxhub.cn/Document｜文档模板/Web_design_for_Tesla.pdf"
                   className="project-card__link"
                 >
-                  VISIT THE WEBSITE
+                  CHECK MY WORK
                 </a>
                 <div className="project-card__socials">
                   <a href="#">
@@ -390,7 +389,7 @@ const index: React.FC<indexProps> = ({}) => {
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/pixelchef"
+                    href="#"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -401,7 +400,7 @@ const index: React.FC<indexProps> = ({}) => {
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
+                  ILLUSTRATOR, PHOTOSHOP, CAD
                 </h4>
               </div>
               <div
@@ -419,25 +418,25 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="heatrow-anim"
                   className="heading-2"
                 >
-                  Heatrow
-                  <br /> Estate
+                  Graphic Design
+                  <br /> 图像绘制
                 </h2>
                 <a
-                  href="https://heatrow.vercel.app/"
+                  href="https://a-b.cc/🎨/"
                   rel="noopener"
                   target="_blank"
                   className="project-card__link"
                 >
-                  VISIT THE WEBSITE
+                  GET MY IDEA
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
+                  <a href="https://dribbble.com/BaoChn">
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/heatrow"
+                    href="#"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -447,7 +446,7 @@ const index: React.FC<indexProps> = ({}) => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">HTML, SCSS, JAVASCRIPT, GSAP</h4>
+                <h4 className="heading-4">OFFIACCOUNT, TIKTOK, BLOG</h4>
               </div>
               <div
                 className="project-card__middle"
@@ -464,29 +463,29 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="adeola-anim"
                   className="heading-2"
                 >
-                  AdeolaAdeoti
-                  <br /> version 1
+                  Platform Operation
+                  <br /> 平台运营
                 </h2>
                 <a
                 rel="noopener"
                   target="_blank"
-                  href="https://adeolaadeoti.netlify.app/"
+                  href="https://a-b.cc/wp-content/uploads/QRmini.png"
                   className="project-card__link"
                 >
-                  VISIT THE WEBSITE
+                  FOLLOW THE ACCOUNT
                 </a>
                 <div className="project-card__socials">
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="https://dribbble.com/shots/12338926-Adeola-Adeoti-Portfolio"
+                    href="#"
                   >
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
+                    href="https://github.com/BaoChn"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -503,10 +502,10 @@ const index: React.FC<indexProps> = ({}) => {
           >
             <div className="section-reviews__top">
               <h1 className="heading-1">
-                <span>Mmmm, a little brag </span> <small>😊</small>
+                <span>How do everyone comment! </span> <small>💬</small>
               </h1>
               <p className="paragraph paragraph__sub">
-                What people are saying about my last portfolio
+                瞧瞧大伙对咱的评价
               </p>
             </div>
             <div className="section-reviews__bottom">
@@ -550,60 +549,58 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-contact">
             <h1 className="heading-1">
-              <span>Sold Yet? </span> <small>🤙</small>
+              <span>That's all? </span> <small>🤔</small>
             </h1>
             <h2 className="section-contact__h2">
-              Thanks for stopping by, I’m currently looking to join a new team of
-              creative designers and developers. If you think we might be a good
-              fit for one another, give me a
-              <a href="tel:+2349066383763"> call 🇳🇬 &nbsp;</a>
-              or send me an
+              更多创意，未完待续…
+              <a href="tel:+8613914046229"> call 🇨🇳 &nbsp;</a>
+              or 
               <a
-                href="mailto:adeolaonigegeara@gmail.com"
+                href="mailto:0246@88.com"
                 rel="noopener"
                 target="_blank"
               >
-                &nbsp; email 📧
+                &nbsp; send 📧
               </a>
               .
             </h2>
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
-              <span>Dont be a stranger!</span> <small>👋</small>
+              <span>Keeping Connetion!</span> <small>👋</small>
             </h1>
-            <p className="paragraph">Connect with me online</p>
+            <p className="paragraph">有问题？常联系！</p>
             <div className="section-socials--links">
-              <a href="https://github.com/adeolaadeoti" rel="noopener" target="_blank">
+              <a target="_blank" href="https://a-b.cc/QQ" rel="noopener">
+                🐧 QQ
+              </a>
+              <a target="_blank" href="https://t.me/BaoChn" rel="noopener">
+                🛩️ TG
+              </a>
+              <a target="_blank" href="https://a-b.cc/WC" rel="noopener">
+                👁️‍🗨️ WC
+              </a>
+              <a target="_blank" href="https://github.com/BaoChn" rel="noopener">
                 👾 GH
-              </a>
-              <a href="https://twitter.com/adeolajs" rel="noopener" target="_blank">
-                🐦 TW
-              </a>
-              <a href="https://www.linkedin.com/in/adeoladev" rel="noopener" target="_blank">
-                💼 LD
-              </a>
-              <a href="https://www.instagram.com/adeolaadeoti_" rel="noopener" target="_blank">
-                📸 IN
               </a>
             </div>
           </section>
         </main>
         <footer className="footer">
           <img
-            src="svg/adeola-logo-footer.svg"
-            alt="design and devloped by adeola"
+            src="svg/BeCool.svg"
+            alt="design and devloped by BaoChn"
           />
           <div className="footer__socials">
             <a
-              href="https://dribbble.com/shots/16100745-Adeola-Adeoti-Personal-Website"
+              href="https://dribbble.com/BaoChn"
               target="_blank"
               rel="noopener"
             >
               <img src="svg/dribble.svg" alt="dribble logo" />
             </a>
             <a
-              href="https://github.com/adeolaadeoti/adeolaadeoti-v2"
+              href="https://github.com/BaoChn"
               target="_blank"
               rel="noopener"
             >
