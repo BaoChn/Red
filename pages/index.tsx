@@ -198,10 +198,10 @@ const index: React.FC<indexProps> = ({}) => {
             <div className="header__hero">
               <div className="header__hero--heading">
                 <span>Keep Chasing dreams,</span> <br />
-                <span>Creative ideas</span>
                 <span className="header__hero--heading-gradient">
-                  products{" "}
-                </span>
+                  Creative{" "}
+                </span> 
+                <span>ideas</span>
                 <br />
                 <span>Come true!</span>
               </div>
@@ -301,8 +301,8 @@ const index: React.FC<indexProps> = ({}) => {
               <span>猜猜我是谁</span> <small>❔</small>
             </h1>
             <p className="paragraph">
-              🧑‍🎓一只大四预备毕业生<pre>🛠️数字达人，扎实技能<br />
-              🚀兴趣不详，爱好多样<pre>🛸乐于探索，脑洞辽阔
+              🧑‍🎓一只大四预备毕业生 🛠️数字达人，扎实技能<br />
+              🚀兴趣不详，爱好多样 🛸乐于探索，脑洞辽阔
             </p>
 
             <div className="project-card">
