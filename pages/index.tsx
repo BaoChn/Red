@@ -199,9 +199,9 @@ const index: React.FC<indexProps> = ({}) => {
             <div className="header__hero">
               <div className="header__hero--heading">
                 <span>逐 dream 不息，</span><br />
-                <span>创</span> 
+                <span>创 </span>
                 <span className="header__hero--heading-gradient">
-                  idea{" "} </span>
+                  ideas{" "} </span>
                 <span>可期！</span>
               </div>
               <a
@@ -295,9 +295,9 @@ const index: React.FC<indexProps> = ({}) => {
             A adulthood man which nearly graduate🎓<br />
             I'm willing to provide assist for you~
           </p>
-          <section id="sectionProjects" className="section-proje    cts">
+          <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
-              <span>Who am I?</span> <small>🙈</small>
+              <small>🙈</small><span> Who am I?</span>
             </h1>
             <p className="paragraph">
               🧑‍🎓一只大四预备毕业生 🛠️数字达人，扎实技能<br />
@@ -501,7 +501,7 @@ const index: React.FC<indexProps> = ({}) => {
           >
             <div className="section-reviews__top">
               <h1 className="heading-1">
-                <small>🗨️</small> <span>How do they think!</span>
+                <small></small> <span>How do they think!</span>
               </h1>
               <p className="paragraph paragraph__sub">
                 瞧瞧大伙对咱的评价
@@ -548,16 +548,15 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-contact">
             <h1 className="heading-1">
-              <span>Is this over?</span> <small>🤔</small>
-            </h1>
-            <h2 className="section-contact__h2">
+              <small>🤔</small><span> Is this over?</span>
+            </h1><h2 className="section-contact__h2">
               更多创意，敬候待续
               …
             </h2>
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
-              <span>Keeping Connetion!</span> <small>👋</small>
+              <small>👋</small><span> Keeping Connetion!</span>
             </h1>
             <p className="paragraph">有问题？常联系！
             <a href="tel:+8613914046229">call 🤙 &nbsp;</a>or
