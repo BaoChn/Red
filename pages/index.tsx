@@ -180,11 +180,12 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
+              <p className="preloader__text">Daydreamer</p>
               <p className="preloader__text">Video_Maker</p>
               <p className="preloader__text">UI/UX_Design</p>
               <p className="preloader__text">Site_Operator</p>
-              <p className="preloader__text">Artwork_Creator</p>
-              <p className="preloader__text">🤪Here we go!</p>
+              <p className="preloader__text">Artwork_Creator</p>              
+              <p className="preloader__text">^_^Here-We-Go!!!</p>
             </motion.div>
           </div>
         </motion.div>
@@ -197,17 +198,18 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>逐梦不息，</span><br />
+                <span>逐 dream 不息，</span><br />
+                <span>创</span> 
                 <span className="header__hero--heading-gradient">
-                  创想{" "} </span>
-                <span>可期!</span>
+                  idea{" "} </span>
+                <span>可期！</span>
               </div>
               <a
                 data-scroll-to
                 className="header__hero--cta"
                 href="#sectionProjects"
               >
-                JIKE探索
+                探索Start
               </a>
             </div>
           </header>
@@ -293,9 +295,9 @@ const index: React.FC<indexProps> = ({}) => {
             A adulthood man which nearly graduate🎓<br />
             I'm willing to provide assist for you~
           </p>
-          <section id="sectionProjects" className="section-projects">
+          <section id="sectionProjects" className="section-proje    cts">
             <h1 className="heading-1">
-              <span>猜猜我是谁</span> <small>❔</small>
+              <small>🙈</small> <span>Who am I?</span>
             </h1>
             <p className="paragraph">
               🧑‍🎓一只大四预备毕业生 🛠️数字达人，扎实技能<br />
@@ -460,7 +462,7 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="adeola-anim"
                   className="heading-2"
                 >
-                  Site Operator
+                  Platform Operator
                   <br /> 平台运营
                 </h2>
                 <a
@@ -499,7 +501,7 @@ const index: React.FC<indexProps> = ({}) => {
           >
             <div className="section-reviews__top">
               <h1 className="heading-1">
-                <span>How do everyone comment! </span> <small>💬</small>
+                <small>🗨️</small> <span>How do they think!</span>
               </h1>
               <p className="paragraph paragraph__sub">
                 瞧瞧大伙对咱的评价
@@ -546,16 +548,16 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-contact">
             <h1 className="heading-1">
-              <span>That's all? </span> <small>🤔</small>
+              <small>🤔</small> <span>Is this over?</span>
             </h1>
             <h2 className="section-contact__h2">
-              更多创意，未完待续
+              更多创意，敬候待续
               …
             </h2>
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
-              <span>Keeping Connetion!</span> <small>👋</small>
+              <small>👋</small> <span>Keeping Connetion!</span>
             </h1>
             <p className="paragraph">有问题？常联系！
             <a href="tel:+8613914046229">call 🤙 &nbsp;</a>or
@@ -586,7 +588,7 @@ const index: React.FC<indexProps> = ({}) => {
         <footer className="footer">
           <img
             src="svg/logo-footer.svg"
-            alt="design and devloped by BaoChn"
+            alt="Build & Devlop by BaoChn"
           />
           <div className="footer__socials">
             <a
@@ -597,7 +599,7 @@ const index: React.FC<indexProps> = ({}) => {
               <img src="svg/dribble.svg" alt="dribble logo" />
             </a>
             <a
-              href="https://github.com/BaoChn"
+              href="https://github.com/BaoChn/Red"
               target="_blank"
               rel="noopener"
             >
