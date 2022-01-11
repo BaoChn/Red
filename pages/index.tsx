@@ -173,18 +173,18 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/iCool.svg" alt="adeola logo" />
+              <img src="svg/adeola-logo-left.svg" alt="adeola logo" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
-              <p className="preloader__text">After_Effect</p>
-              <p className="preloader__text">Illustrator</p>
-              <p className="preloader__text">Photoshop</p>
-              <p className="preloader__text">Office</p>
-              <p className="preloader__text">HTML</p>
+              <p className="preloader__text">Video_Maker</p>
+              <p className="preloader__text">UI/UX_Design</p>
+              <p className="preloader__text">Site_Operator</p>
+              <p className="preloader__text">Artwork_Creator</p>
+              <p className="preloader__text">🤪Here we go!</p>
             </motion.div>
           </div>
         </motion.div>
@@ -197,18 +197,17 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>chasing dreams</span> 
-                <br /><span>keep step</span> 
-                  <span className="header__hero--heading-gradient">
-                    Creative idea{" "} </span><br />
-                  <span>Come true!</span>
+                <span>逐梦不息，</span><br />
+                <span className="header__hero--heading-gradient">
+                  创想{" "} </span>
+                <span>可期!</span>
               </div>
               <a
                 data-scroll-to
                 className="header__hero--cta"
                 href="#sectionProjects"
               >
-                EXPLORE｜即刻探索
+                JIKE探索
               </a>
             </div>
           </header>
@@ -416,8 +415,8 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="heatrow-anim"
                   className="heading-2"
                 >
-                  Graphic Design
-                  <br /> 图像绘制
+                  Artwork Creator
+                  <br /> 美术创作
                 </h2>
                 <a
                   href="https://a-b.cc/🎨/"
@@ -461,7 +460,7 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="adeola-anim"
                   className="heading-2"
                 >
-                  Platform Operation
+                  Site Operator
                   <br /> 平台运营
                 </h2>
                 <a
