@@ -86,7 +86,7 @@ const index: React.FC<indexProps> = ({}) => {
 
     console.clear();
     console.log.apply(console, [
-      "%c Designed and Developed by Adeola Adeoti %c %c🚀 %c\n",
+      "%c Designed and Developed by BaoChn %c %c🛸 %c\n",
       "color: #fff; background: #8000ff; padding:5px 0;",
       "color: #fff; background: #242424; padding:5px 0 5px 5px;",
       "background: #242424; padding:5px 0",
@@ -173,7 +173,7 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/iCool.svg" alt="BOCO-icon" />
+              <img src="svg/iCool.svg" alt="adeola logo" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
@@ -197,20 +197,18 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>Keep Chasing dreams,</span> <br />
-                <span className="header__hero--heading-gradient">
-                  Creative{" "}
-                </span> 
-                <span>ideas</span>
-                <br />
-                <span>Come true!</span>
+                <span>chasing dreams</span> 
+                <br /><span>keep step</span> 
+                  <span className="header__hero--heading-gradient">
+                    Creative idea{" "} </span><br />
+                  <span>Come true!</span>
               </div>
               <a
                 data-scroll-to
                 className="header__hero--cta"
                 href="#sectionProjects"
               >
-                EXPLORE MORE
+                EXPLORE｜即刻探索
               </a>
             </div>
           </header>
@@ -293,8 +291,8 @@ const index: React.FC<indexProps> = ({}) => {
         </div>
         <main className="container">
           <p className="about-text">
-            A adulthood man which nearly graduate🎓, I'm willing<br />
-            to provide any assist if it's needed for you guys~
+            A adulthood man which nearly graduate🎓<br />
+            I'm willing to provide assist for you~
           </p>
           <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
@@ -552,24 +550,24 @@ const index: React.FC<indexProps> = ({}) => {
               <span>That's all? </span> <small>🤔</small>
             </h1>
             <h2 className="section-contact__h2">
-              更多创意，未完待续…
-              <a href="tel:+8613914046229"> call 🇨🇳 &nbsp;</a>
-              or 
-              <a
-                href="mailto:0246@88.com"
-                rel="noopener"
-                target="_blank"
-              >
-                &nbsp; send 📧
-              </a>
-              .
+              更多创意，未完待续
+              …
             </h2>
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
               <span>Keeping Connetion!</span> <small>👋</small>
             </h1>
-            <p className="paragraph">有问题？常联系！</p>
+            <p className="paragraph">有问题？常联系！
+            <a href="tel:+8613914046229">call 🤙 &nbsp;</a>or
+              <a
+                href="mailto:0246@88.com"
+                rel="noopener"
+                target="_blank"
+              >
+                &nbsp; send 💌
+              </a>
+            </p>
             <div className="section-socials--links">
               <a target="_blank" href="https://a-b.cc/QQ" rel="noopener">
                 🐧 QQ
@@ -588,7 +586,7 @@ const index: React.FC<indexProps> = ({}) => {
         </main>
         <footer className="footer">
           <img
-            src="svg/BeCool.svg"
+            src="svg/logo-footer.svg"
             alt="design and devloped by BaoChn"
           />
           <div className="footer__socials">
