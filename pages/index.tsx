@@ -297,7 +297,7 @@ const index: React.FC<indexProps> = ({}) => {
           </p>
           <section id="sectionProjects" className="section-proje    cts">
             <h1 className="heading-1">
-              <small>🙈</small> <span>Who am I?</span>
+              <span>Who am I?</span> <small>🙈</small>
             </h1>
             <p className="paragraph">
               🧑‍🎓一只大四预备毕业生 🛠️数字达人，扎实技能<br />
@@ -548,7 +548,7 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-contact">
             <h1 className="heading-1">
-              <small>🤔</small> <span>Is this over?</span>
+              <span>Is this over?</span> <small>🤔</small>
             </h1>
             <h2 className="section-contact__h2">
               更多创意，敬候待续
@@ -557,7 +557,7 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
-              <small>👋</small> <span>Keeping Connetion!</span>
+              <span>Keeping Connetion!</span> <small>👋</small>
             </h1>
             <p className="paragraph">有问题？常联系！
             <a href="tel:+8613914046229">call 🤙 &nbsp;</a>or
