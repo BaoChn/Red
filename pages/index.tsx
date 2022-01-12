@@ -86,15 +86,15 @@ const index: React.FC<indexProps> = ({}) => {
 
     console.clear();
     console.log.apply(console, [
-      "%c Designed and Developed by BaoChn %c %c🛸 %c\n",
-      "color: #fff; background: #8000ff; padding:5px 0;",
+      "%c Build & Devlop by BaoChn %c %c🛸 %c\n",
+      "color: #fff; background: #0098EF; padding:5px 0;",
       "color: #fff; background: #242424; padding:5px 0 5px 5px;",
       "background: #242424; padding:5px 0",
       "background: #242424; padding:5px 5px 5px 0",
     ]);
     console.log.apply(console, [
-      "%c Thanks for stopping by, I’m currently looking to a new team of creative designers and developers.\n",
-      "color: #fff; background: #8000ff; padding:5px 0;",
+      "%c Thanks for visiting! Suggestions are welcome~\n",
+      "color: #fff; background: #0098EF; padding:5px 0;",
     ]);
   }, []);
 
@@ -501,10 +501,10 @@ const index: React.FC<indexProps> = ({}) => {
           >
             <div className="section-reviews__top">
               <h1 className="heading-1">
-                <small></small> <span>How do they think!</span>
+                <small>👁️‍🗨️</small> <span>How do they think!</span>
               </h1>
               <p className="paragraph paragraph__sub">
-                瞧瞧大伙对咱的评价
+                瞧瞧小伙伴们都怎么看~
               </p>
             </div>
             <div className="section-reviews__bottom">
@@ -556,15 +556,17 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
-              <small>👋</small><span> Keeping Connetion!</span>
+              <small>👋</small><span> Keep Connetion!</span>
             </h1>
-            <p className="paragraph">有问题？常联系！
-            <a href="tel:+8613914046229">call 🤙 &nbsp;</a>or
+            <p className="paragraph">有问题？
+              <a href="tel:+8613914046229">
+                call 🤙 &nbsp;</a>
+              常联系！
               <a
+                target="_blank"
                 href="mailto:0246@88.com"
                 rel="noopener"
-                target="_blank"
-              >
+                >
                 &nbsp; send 💌
               </a>
             </p>
