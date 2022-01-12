@@ -48,26 +48,27 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         className="navigation-top"
       >
         <div className="navigation-top__left">
-          <h4 className="navigation-h4">DONT BE A STRANGER</h4>
+          <h4 className="navigation-h4">JOY在沟通</h4>
           <div className="navigation-top__left--links">
-            <a href="https://github.com/adeolaadeoti" rel="noopener" target="_blank">
+            <a target="_blank" href="https://a-b.cc/QQ" rel="noopener">
+              🐧 QQ
+            </a>
+            <a target="_blank" href="https://t.me/BaoChn" rel="noopener">
+              🛩️ TG
+            </a>
+            <a target="_blank" href="https://a-b.cc/WC" rel="noopener">
+              👁️‍🗨️ WC
+            </a>
+            <a target="_blank" href="https://github.com/BaoChn" rel="noopener">
+              {" "}
               👾 GH
-            </a>
-            <a href="https://twitter.com/adeolajs" rel="noopener" target="_blank">
-              🐦 TW
-            </a>
-            <a href="https://www.linkedin.com/in/adeoladev" rel="noopener" target="_blank">
-              💼 LD
-            </a>
-            <a href="https://www.instagram.com/adeolaadeoti_" rel="noopener" target="_blank">
-              📸 IN
             </a>
           </div>
         </div>
         <div className="navigation-top__right">
-          <h4 className="navigation-h4">HAVE AN IDEA?</h4>
+          <h4 className="navigation-h4">SAY思妙想</h4>
           <a
-            href="mailto:adeolaonigegeara@gmail.com"
+            href="mailto:0246@88.com"
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
@@ -84,29 +85,33 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         }
         className="navigation-bottom"
       >
-        <h4 className="navigation-h4">FEATURED PROJECTS</h4>
+        <h4 className="navigation-h4">独 SPECIAL 点</h4>
         <div className="navigation-bottom__projects">
           <a
             target="_blank"
             rel="noopener"
-            href="https://alexxandria.vercel.app/"
+            href="#"
             className="navigation-bottom__projects-card"
           >
             <img src="webp/alexxandria-nav.webp" alt="alexxandria" />
             <h2>
-              Alexxandria
+              Creative
               <br />
-              Forque
+              热衷创作
             </h2>
           </a>
           <a
-            href="https://pixelchef.netlify.app/"
+            href="#"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
             <img src="webp/pixelchef-nav.webp" alt="pixelChef" />
-            <h2>PixelChef</h2>
+            <h2>
+              Whimsical
+              <br />
+              异想天开
+            </h2>
           </a>
           <a
             href="https://adeolaadeoti.netlify.app/"
@@ -116,9 +121,9 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
           >
             <img src="webp/adeola-1.webp" alt="adeola" />
             <h2>
-              AdeolaAdeoti
+              Diversity
               <br />
-              Version 1
+              兴趣多样
             </h2>
           </a>
         </div>
