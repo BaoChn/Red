@@ -89,8 +89,8 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         <div className="navigation-bottom__projects">
           <a
             target="_blank"
+            href="https://a-b.cc/🎨/"
             rel="noopener"
-            href="#"
             className="navigation-bottom__projects-card"
           >
             <img src="webp/alexxandria-nav.webp" alt="alexxandria" />
@@ -101,8 +101,8 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             </h2>
           </a>
           <a
-            href="#"
             target="_blank"
+            href="https://fxhub.cn"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
@@ -114,8 +114,8 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             </h2>
           </a>
           <a
-            href="https://adeolaadeoti.netlify.app/"
             target="_blank"
+            href="https://kg.qq.com/node/personal?uid=6198988d222b3e8e3d"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
