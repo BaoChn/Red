@@ -72,7 +72,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
-            Tell me about it
+          📮0246@88.com
           </a>
         </div>
       </motion.div>
@@ -123,7 +123,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             <h2>
               Diversity
               <br />
-              兴趣多样
+              多元探索
             </h2>
           </a>
         </div>
