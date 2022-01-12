@@ -181,11 +181,10 @@ const index: React.FC<indexProps> = ({}) => {
               className="preloader__right"
             >
               <p className="preloader__text">Daydreamer</p>
-              <p className="preloader__text">Video_Maker</p>
-              <p className="preloader__text">UI/UX_Design</p>
+              <p className="preloader__text">FX_Builder</p>
+              <p className="preloader__text">UX_Designer</p>
               <p className="preloader__text">Site_Operator</p>
-              <p className="preloader__text">Artwork_Creator</p>              
-              <p className="preloader__text">^_^Here-We-Go!!!</p>
+              <p className="preloader__text">Content_Creator</p>
             </motion.div>
           </div>
         </motion.div>
@@ -198,11 +197,11 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>逐 dream 不息，</span><br />
+                <span>逐 dream 不息 ,</span><br />
                 <span>创 </span>
                 <span className="header__hero--heading-gradient">
                   ideas{" "} </span>
-                <span>可期！</span>
+                <span>可期 !</span>
               </div>
               <a
                 data-scroll-to
@@ -325,8 +324,8 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="alexxandria-anim"
                   className="heading-2"
                 >
-                  Video Maker
-                  <br /> 影视创作
+                  FX Builder
+                  <br /> 动效制作
                 </h2>
                 <a
                 rel="noopener"
@@ -370,7 +369,7 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="pixelchef-anim"
                   className="heading-2"
                 >
-                  UI/UX Design
+                  UX Designer
                   <br /> 交互设计
                 </h2>
                 <a
@@ -417,8 +416,8 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="heatrow-anim"
                   className="heading-2"
                 >
-                  Artwork Creator
-                  <br /> 美术创作
+                  Content Creator
+                  <br /> 内容创作
                 </h2>
                 <a
                   href="https://a-b.cc/🎨/"
@@ -560,14 +559,14 @@ const index: React.FC<indexProps> = ({}) => {
             </h1>
             <p className="paragraph">有问题？
               <a href="tel:+8613914046229">
-                call 🤙 &nbsp;</a>
+                call 🤙&nbsp;</a>
               常联系！
               <a
                 target="_blank"
                 href="mailto:0246@88.com"
                 rel="noopener"
                 >
-                &nbsp; send 💌
+                &nbsp;send 💌
               </a>
             </p>
             <div className="section-socials--links">
