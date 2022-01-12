@@ -10,9 +10,9 @@ interface Ireply {
 const result: Ireply[] = [
   {
     id: 0,
-    name: "Name cannot be blank",
-    userName: "@hackSultan",
-    reply: "This is great stuff right here..",
+    name: "BBBig",
+    userName: "@bbbig",
+    reply: "好家伙！",
   },
   {
     id: 1,
@@ -34,9 +34,9 @@ const result: Ireply[] = [
   },
   {
     id: 4,
-    name: "Amarachi Iheanacho",
-    userName: "@amaraIheanach0",
-    reply: "Your site is elite, lovely work.",
+    name: "周某（同级校友）",
+    userName: "@mrchou",
+    reply: "做的那个真心不戳！内容挺全的，很丰富。",
   },
   {
     id: 5,
@@ -58,9 +58,9 @@ const result: Ireply[] = [
   },
   {
     id: 8,
-    name: "🥷",
-    userName: "@aladearchives",
-    reply: "Whooooaaaaaaa your site is mad",
+    name: "不愿透露姓名的吃瓜群众",
+    userName: "@master",
+    reply: "🐮🍺",
   },
   {
     id: 9,
