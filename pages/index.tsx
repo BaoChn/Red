@@ -123,7 +123,7 @@ const index: React.FC<indexProps> = ({}) => {
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
           <link rel="icon" href="svg/favicon.svg" />
-          <link href="https://bao.red/" rel="canonical" />
+          <link href="/" rel="canonical" />
           <meta name="theme-color" content="#0098EF" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
@@ -139,7 +139,7 @@ const index: React.FC<indexProps> = ({}) => {
             property="og:title"
             content="BaoChn Studio &mdash; Create Possibility"
           />
-          <meta property="og:url" content="https://bao.red/" />
+          <meta property="og:url" content="/" />
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
@@ -155,7 +155,7 @@ const index: React.FC<indexProps> = ({}) => {
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://bao.red/" />
+          <meta name="twitter:url" content="/" />
         </Head>
         <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/preloader.mp3" type="audio/mp3" />
@@ -180,11 +180,13 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
+              <p className="preloader__text">也许是个</p>
               <p className="preloader__text">Daydreamer</p>
               <p className="preloader__text">FX_Builder</p>
               <p className="preloader__text">UX_Designer</p>
               <p className="preloader__text">Site_Operator</p>
               <p className="preloader__text">Content_Creator</p>
+              <p className="preloader__text">话不多说，马上探索！</p>
             </motion.div>
           </div>
         </motion.div>
@@ -208,7 +210,7 @@ const index: React.FC<indexProps> = ({}) => {
                 className="header__hero--cta"
                 href="#sectionProjects"
               >
-                探索Start
+                LAUNCH🚀
               </a>
             </div>
           </header>
@@ -291,8 +293,8 @@ const index: React.FC<indexProps> = ({}) => {
         </div>
         <main className="container">
           <p className="about-text">
-            A adulthood man which nearly graduate🎓<br />
-            I'm willing to provide assist for you~
+            A mature stranger which almost graduated🎓, <br />
+            I‘m willing to make any possibility into reality~
           </p>
           <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
@@ -336,15 +338,15 @@ const index: React.FC<indexProps> = ({}) => {
                   HAVE A LOOK
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
+                  <a href="https://space.bilibili.com/19116855">
+                    <img src="svg/play.svg" alt="play icon" />
                   </a>
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="#"
+                    href="https://a-b.cc/📽/"
                   >
-                    <img src="svg/github.svg" alt="github icon" />
+                    <img src="svg/film.svg" alt="film icon" />
                   </a>
                 </div>
               </div>
@@ -381,15 +383,15 @@ const index: React.FC<indexProps> = ({}) => {
                   CHECK MY WORK
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
+                  <a href="https://fxhub.cn/Document｜文档模板/Web_design_for_Tesla.pdf">
+                    <img src="svg/layout.svg" alt="layout icon" />
                   </a>
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="#"
+                    href="https://a-b.cc/🎨/"
                   >
-                    <img src="svg/github.svg" alt="github icon" />
+                    <img src="svg/pen-tool.svg" alt="pen icon" />
                   </a>
                 </div>
               </div>
@@ -434,9 +436,9 @@ const index: React.FC<indexProps> = ({}) => {
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="#"
+                    href=""
                   >
-                    <img src="svg/github.svg" alt="github icon" />
+                    <img src="svg/instagram.svg" alt="instagram icon" />
                   </a>
                 </div>
               </div>
@@ -476,16 +478,16 @@ const index: React.FC<indexProps> = ({}) => {
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="#"
+                    href="https://a-b.cc/🏆/"
                   >
-                    <img src="svg/dribble.svg" alt="dribble icon" />
+                    <img src="svg/award.svg" alt="award icon" />
                   </a>
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="https://github.com/BaoChn"
+                    href="https://a-b.cc"
                   >
-                    <img src="svg/github.svg" alt="github icon" />
+                    <img src="svg/server.svg" alt="server icon" />
                   </a>
                 </div>
               </div>
@@ -500,7 +502,7 @@ const index: React.FC<indexProps> = ({}) => {
           >
             <div className="section-reviews__top">
               <h1 className="heading-1">
-                <small>👁️‍🗨️</small> <span>How do they think!</span>
+                <small>📝</small> <span>How do they think!</span>
               </h1>
               <p className="paragraph paragraph__sub">
                 瞧瞧小伙伴们都怎么看~
@@ -592,14 +594,14 @@ const index: React.FC<indexProps> = ({}) => {
           />
           <div className="footer__socials">
             <a
-              href="https://dribbble.com/BaoChn"
+              href="https://a-b.cc"
               target="_blank"
               rel="noopener"
             >
-              <img src="svg/dribble.svg" alt="dribble logo" />
+              <img src="svg/home.svg" alt="home logo" />
             </a>
             <a
-              href="https://github.com/BaoChn/Red"
+              href="https://github.com/BaoChn/BCard"
               target="_blank"
               rel="noopener"
             >
